@@ -126,7 +126,10 @@ div.au-stagger {
   border-radius: 50%;
   border: 2px #FFF solid;
 }
-
+virtual-list {
+    height: 500px;
+    display: block;
+}
 /* animation definitions */
 @-webkit-keyframes fadeInRight {
   0% {
@@ -172,4 +175,7 @@ div.au-stagger {
   100% {
     opacity: 1;
   }
+}
+.item-template {
+    height: 85px;
 }
