@@ -11,7 +11,7 @@
 				"minify" : true
 			}
 		},
-		"dist/aurelia" : {
+		"src/aurelia" : {
 			"includes" : [
 				"aurelia-framework",
 				"aurelia-bootstrapper",
