@@ -1,0 +1,7 @@
+<template>
+    <virtual-list items.bind="postsArray">
+        <template replace-part="item-template">
+            ${$index} ${item}
+        </template>
+    </virtual-list>
+</template>

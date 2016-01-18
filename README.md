@@ -15,4 +15,9 @@
  ```
  gulp bundle
  ```
+## Watch for changed files
+http://localhost:9000
 
+'''
+gulp watch
+'''
